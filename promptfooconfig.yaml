@@ -1,0 +1,14 @@
+# This configuration compares LLM output of 2 prompts x 2 GPT models across 3 test cases.
+# Learn more: https://promptfoo.dev/docs/configuration/guide
+
+prompts:
+  - file://prompts/json-extraction.j2
+  - file://prompts/json.j2
+
+providers: [ollama:completion:mistral:instruct, ollama:completion:phi]
+
+tests:
+  - vars:
+      text: file://input/invoice_0.txt
+    assert:
+      - type: is-json
