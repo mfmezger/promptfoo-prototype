@@ -1,5 +1,7 @@
 # PromptFoo Minimal Example
 
+THis is a repository to show how to use PromptFoo to create a minimal example of evaluation of multiple prompts for a ollama llm.
+
 ## Installation
 
 Install Node Js.
