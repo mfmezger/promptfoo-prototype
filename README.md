@@ -1,14 +1,17 @@
-To get started, set your OPENAI_API_KEY environment variable.
+# PromptFoo Minimal Example
 
-Next, edit promptfooconfig.yaml.
+## Installation
 
-Then run:
+Install Node Js.
+
+Using npx:
+    
+```bash
+npx promptfoo@latest
+npx promptfoo@latest init
+npx promptfoo@latest eval
+npx promptfoo@latest view
 ```
-promptfoo eval
-```
-
-Afterwards, you can view the results by running `promptfoo view`
-
 
 ## Data
 
