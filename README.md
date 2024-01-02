@@ -7,10 +7,9 @@ THis is a repository to show how to use PromptFoo to create a minimal example of
 Install Node Js.
 
 Using npx:
-    
+
 ```bash
 npx promptfoo@latest
-npx promptfoo@latest init
 npx promptfoo@latest eval
 npx promptfoo@latest view
 ```
